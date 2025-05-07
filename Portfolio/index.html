@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MK Time | Our Collection</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <style>
+      img{
+        height: 400px;
+        width: 1400px;
+      }
+      nav.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+body {
+  padding-top: 60px; 
+}
+ .intro-container {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+      h1 {
+        color: #8b0000;
+      }
+      p {
+        font-size: 18px;
+        line-height: 1.6;
+      }
+  </style>
+  </head>
+  <body>
+    <nav class="navbar" style="background-color: red;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="product.html">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="register.html">Register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="position-relative text-center">
+      <img src="Images/Watch.jpeg" class="img-fluid">
+      <div class="position-absolute top-50 start-50 translate-middle text-white bg-dark bg-opacity-50 p-4 rounded">
+        <h2>Discover Timeless Elegance</h2>
+        <p>Experience Swiss precision, handcrafted in Edinburgh.</p>
+        <a href="product.html" class="btn btn-light">Shop Now</a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="intro-container">
+        <h1>Welcome to MK Time – Where Swiss Precision Meets Edinburgh Elegance</h1>
+        <br>
+        <p>At MK Time, we craft more than just watches—we create timeless statements of sophistication and reliability. Designed and manufactured in the heart of Edinburgh, our Swiss-engineered timepieces embody precision, elegance, and lasting quality.</p>
+        <p>Our dedication to craftsmanship ensures that every watch is a masterpiece, made for those who appreciate superior design and impeccable performance. From classic styles to contemporary innovations, each piece is built with the highest standards, backed by our commitment to guaranteed servicing and repair.</p>
+        <p>As we continue to grow, our new online platform ensures effortless browsing across all devices, bringing our exclusive collection to a wider audience. Whether you're a seasoned collector or discovering Swiss excellence for the first time, MK Time is your destination for elegance, precision, and timeless style.</p>
+        <p><strong>Discover the art of timekeeping—crafted to perfection.</strong></p>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <h2 class="text-center mb-4">Featured Watches</h2>
+      <div class="row justify-content-center"> <!-- Centers content horizontally -->
+        <div class="col-md-4">
+          <div class="card text-center">
+            <img src="Images/Watch3.jpg" class="card-img-top" alt="Watch 3">
+            <div class="card-body">
+              <h5 class="card-title">Classic Elegance</h5>
+              <p class="card-text">A timeless Swiss masterpiece.</p>
+              <a href="https://www.watches-of-switzerland.co.uk/" class="btn btn-dark">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <img src="Images/watch2.jpg" class="card-img-top" alt="Watch 2">
+            <div class="card-body">
+              <h5 class="card-title">Modern Prestige</h5>
+              <p class="card-text">Innovation meets style.</p>
+              <a href="https://www.swiss-store.co.uk/shop/watches" class="btn btn-dark">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="testimonialCarousel" class="carousel slide mt-5" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="p-5 text-center">
+            <p>"MK Time watches are the perfect blend of craftsmanship and luxury!"</p>
+            <h5>- Sarah L.</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="p-5 text-center">
+            <p>"A truly elegant timepiece that complements every outfit."</p>
+            <h5>- James K.</h5>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+      <p>&copy; 2025 MK Time | Crafted in Edinburgh</p> 
+    </footer>
+  </body>
+</html>
